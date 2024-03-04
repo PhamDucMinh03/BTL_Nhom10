@@ -1,0 +1,50 @@
+body {
+  background-image: url(https://voz.vn/attachments/1688360166301-png.1931695/);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+.avatar {
+  margin: 20px auto 0px auto;
+  border-radius: 1000px;
+}
+center {
+  background: rgba(60, 60, 60, 0.8);
+  border-color: red;
+  border-radius: 30px;
+  width: 170px;
+  margin: 170px auto;
+}
+
+h3 {
+  font-family: "Lobster", cursive;
+  width: 150;
+  margin: 10px auto 0 auto;
+}
+
+p {
+  font-family: system-ui;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.button {
+  margin-bottom: 10px;
+  background-color: white;
+  border: 0;
+  width: 150px;
+  padding: 15px 0 15px 0;
+  border-radius: 100px;
+  font-family: "Roboto Condensed", cursive;
+  font-size: 15px;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+  -webkit-box-shadow: 0px 11px 22px -9px #000000;
+  box-shadow: 0px 11px 22px -9px #000000;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
